@@ -209,11 +209,49 @@ body{
     ,url(Universidad.png);
     
 }
-
+/* FIN PROYECTOS */
+/* ----------------------------------------------------------------- */
+/* INICIO CONTACTO */
 .section5{
     grid-area: section5;
     background-color:darkkhaki;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.Contacto-h2{
+    margin: 15px 0 15px 0;
+    color: white;
+    text-shadow: gray 3px 3px 2px;
+}
+.div-conteiner2{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 10%;
+    border: solid 2px black;
+    box-shadow: 10px 10px 10px grey;
+}
+.Contacto-1, .Contacto-2{
+    margin:auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Contacto-1:hover, .Contacto-2:hover{
+    transform: translateY(8px);
+    transition: transform 0.3s ease-out;
+    text-shadow: grey 3px 3px 2px;
+}
+/* FIN CONTACTO */
+/* ----------------------------------------------------------------- */
+/* INICIO FOOTER */
 
 .footer{
     grid-area: footer;
