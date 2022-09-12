@@ -105,11 +105,45 @@ a:hover{
 }
 /* FIN SOBRE MI */
 /* -------------------------------------------------------------------- */
+/* INICIO ESTUDIOS */
+
 .section3{
     grid-area: section3;
-    background-color:darkkhaki;
+    background-color: darkkhaki;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-estudios-h2{
+    color: white;
+    margin: 80px 0 60px 0;
+    text-shadow: gray 3px 3px 2px;
+}
+.div-lenguajes-h2{
+    color: white;
+    margin: 150px 0 60px 0;
+    text-shadow: gray 3px 3px 2px;
+}
+.div-estudios-p{
+    color: white;
+    margin:20px;
+}
+.div-estudios-p-utn{
+    margin-top: 50px;
+    color: white;
+}
+.div-estudios-ul{
+    list-style: none;
+    color: white;
+    
+}
+.div-estudios-li{
+    margin-top: 20px;
 }
 
+/* FIN ESTUDIOS */
+/* ----------------------------------------------------------------- */
 .section4{
     grid-area: section4;
     background-color:darkkhaki;
