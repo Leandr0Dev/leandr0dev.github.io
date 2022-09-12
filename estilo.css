@@ -65,15 +65,14 @@ body{
       color: white;
       text-shadow: black 3px 3px 2px;
 }
-
 /* FIN NAV */
-
-/* ------------------------------------------------------------------------- */
-
+/* ----------------------------------------------------------------- */
 /* INICIO SOBRE MI */
+
 .section2{
     grid-area: section2;
-    background-color:darkkhaki;
+    background-image: url(Fondo.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,28 +84,29 @@ body{
 }
 
 .div-sobremi-h2{
-    margin-bottom: 20px;
+    margin: 10px 0 80px 0;
+    color: white;
+    text-shadow: gray 3px 3px 2px;
 }
 
 .div-sobremi-img{
    border-radius: 100%;
-   width: 300px;
-   height: 300px;
-   border: solid 1px black;
-   box-shadow:10px 10px 15px black;
-   
+   width: 18rem;
+   height: 18rem;
+   box-shadow:1px 1px 100px white;
 }
 
 .div-sobremi-p{
-    margin-top: 30px; 
+    margin-top: 35px;
+    color: white;
 }
 /* FIN SOBRE MI */
-/* -------------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
 /* INICIO ESTUDIOS */
 
 .section3{
     grid-area: section3;
-    background-color: darkkhaki;
+    background-image: url(Fondo.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -138,7 +138,6 @@ body{
 .div-estudios-li{
     margin-top: 20px;
 }
-
 /* FIN ESTUDIOS */
 /* ----------------------------------------------------------------- */
 .section4{
@@ -158,7 +157,6 @@ body{
 
 .grid-container{
     display: grid;
-    gap: 12px;
     grid-template:
         "navbar     navbar   navbar"    40px
         "section2   section2 section2"  620px
