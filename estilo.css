@@ -141,9 +141,74 @@ body{
 
 /* FIN ESTUDIOS */
 /* ----------------------------------------------------------------- */
+/* INICIO PROYECTOS */
 .section4{
     grid-area: section4;
     background-color:darkkhaki;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-conteiner{
+    background-color: white;
+    width: 1300px;
+    height: 1200px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 5%;
+    
+}
+.proyecto-h2{
+    color : black;
+    position: absolute;
+    margin-top: 90px;
+    text-shadow: gray 3px 3px 2px;
+    
+}
+.Caja1, .Caja2, .Caja3{
+    margin:auto ;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border: solid black;
+    box-shadow: 10px 12px 8px gray;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Formulario.png);
+}
+
+.proyectos-p{
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    display: inline;
+}
+
+.Caja2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Tributo.png);
+}
+.Caja3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Universidad.png);
+    
 }
 
 .section5{
