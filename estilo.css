@@ -77,8 +77,34 @@ a:hover{
 .section2{
     grid-area: section2;
     background-color:darkkhaki;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.div-sobremi{
+    width: 500px;
+    margin-top: 50px;
+}
+
+.div-sobremi-h2{
+    margin-bottom: 20px;
+}
+
+.div-sobremi-img{
+   border-radius: 100%;
+   width: 300px;
+   height: 300px;
+   border: solid 1px black;
+   box-shadow:10px 10px 15px black;
+   
+}
+
+.div-sobremi-p{
+    margin-top: 30px; 
+}
+/* FIN SOBRE MI */
+/* -------------------------------------------------------------------- */
 .section3{
     grid-area: section3;
     background-color:darkkhaki;
