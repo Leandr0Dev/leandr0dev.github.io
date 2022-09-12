@@ -22,11 +22,58 @@ body{
     text-align: center;
 }
 
+
 .navbar{
     grid-area: navbar;
     background-color: grey;
 }
+/* ------------------------------------------------------------------------ */
+/* INICIO NAV */
 
+.navbar{
+    grid-area: navbar;
+    background-color: grey;
+    position:fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.nav-lista{
+    display: flex;
+    margin-right: 2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+li:hover{
+      transform: translateY(8px);
+      transition: transform 0.3s ease-out;
+}
+
+a:hover{
+      color: white;
+}
+
+/* FIN NAV */
+
+/* ------------------------------------------------------------------------- */
+
+/* INICIO SOBRE MI */
 .section2{
     grid-area: section2;
     background-color:darkkhaki;
